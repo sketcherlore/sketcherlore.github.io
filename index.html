@@ -11,6 +11,11 @@ span {
 }
 
 .myButton {
+	top: 50%;
+        left: 50%;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
 	box-shadow:inset 0px 1px 0px 0px #9acc85;
 	background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
 	background-color:#74ad5a;
@@ -18,11 +23,12 @@ span {
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family:Aleo;
 	font-size:28px;
 	font-weight:bold;
 	padding:6px 5px;
 	text-decoration:none;
+	
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
