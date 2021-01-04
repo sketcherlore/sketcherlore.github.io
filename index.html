@@ -10,11 +10,32 @@ span {
   font-size:30px
 }
 
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #9acc85;
+	background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+	background-color:#74ad5a;
+	border:1px solid #3b6e22;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:6px 5px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+	background-color:#68a54b;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
 body {
-    background: url("https://sketcherlore.github.io/noisetexturewow.png");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+background: #000000 none no-repeat scroll 0 0;
 }
 
 .container {
@@ -27,9 +48,15 @@ body {
 }
 </style>
 
+<body>
+  
 <div class="container">
     <span>I'm vertically/horizontally centered!</span>
 </div>
+  
+<a href="https://sketcherlore.github.io/tag" class="myButton">Hashtags</a>
+
+</body>
   
   
 </html>
